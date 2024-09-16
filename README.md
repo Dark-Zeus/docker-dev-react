@@ -93,6 +93,15 @@ The repository provides a script for building the docker image for windows and l
 
 ### With Devcontainer Extension
 
+The project provides a devcontainer configuration for Visual Studio Code users. To use the devcontainer extension, follow these steps:
+
+**Note:** When using dev container git is automatically installed (not optional). If you don't want git, you can remove the git feature from the `.devcontainer/devcontainer.json` file.
+```json
+"features": {
+    "ghcr.io/cirolosapio/devcontainers-features/alpine-git:0": {}
+},
+```
+
 1. Follow the first and second steps from the [Without Devcontainer Extension](#without-devcontainer-extension) section.
 2. Open the project in Visual Studio Code.
 3. Follow the instructions in the [Devcontainer Extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) documentation to open the project in a devcontainer.
