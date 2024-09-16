@@ -93,7 +93,8 @@ if [ $BUILD_STATUS -eq 0 ]; then
     fi
 
     # Run the Docker container
-    docker run --rm -it -e CHOKIDAR_USEPOLLING=true -e WATCHPACK_POLLING=true -p ${HOST_PORT}:${CONTAINER_PORT} --name ${CONTAINER_NAME} -v $(pwd):${MOUNT_PATH} --user $(id -u):$(id -g) ${IMAGE_NAME} ash
+    docker run --rm -it -e CHOKIDAR_USEPOLLING=true -e WATCHPACK_POLLING=true -p ${HOST_PORT}:${CONTAINER_PORT} --name ${CONTAINER_NAME} -v $(pwd):${MOUNT_PATH} --user $(id -u):$(id -g) ${IMAGE_NAME} ash -c "echo Y | yarn --version && ash"
+
 else
     echo -e "${RED}Docker Image build failed with status ${BUILD_STATUS}${NC}\n"
     exit 1

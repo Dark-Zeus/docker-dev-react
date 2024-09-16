@@ -106,6 +106,24 @@ The project provides a devcontainer configuration for Visual Studio Code users. 
 2. Open the project in Visual Studio Code.
 3. Follow the instructions in the [Devcontainer Extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) documentation to open the project in a devcontainer.
 
+<br/>
+
+## Development
+
+Run 
+```bash
+yarn install
+``` 
+to install the dependencies and start coding.
+Yarn is the package manager used in the project. You can use npm as well, but it's recommended to use yarn for consistency.
+
+You can use the preferred IDE in your system to start developing the project.
+
+Start the development server with the following command:
+```bash
+yarn start
+```
+
 ## Versions
 
 ### Docker

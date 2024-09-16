@@ -2,6 +2,7 @@ FROM node:20.17.0-alpine3.19
 
 RUN npm remove -g yarn || true
 RUN npm install -g corepack && corepack enable && corepack prepare yarn@4.4.1 --activate
+RUN apk add --no-cache git
 WORKDIR /usr/src/app
 EXPOSE 3000
 CMD ["/bin/ash"]
