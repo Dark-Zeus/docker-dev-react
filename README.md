@@ -26,9 +26,9 @@ We however do recommend to build your own production image and run the container
 * Stack : 
     * docker-dev-react
 * Versions (Branches) : 
-    * react/18.3.1-base
-    * react/18.3.1-base-ts
-    * react/18.3.1-redux
+    * react-18.3.1/base
+    * react-18.3.1/base-ts
+    * react-18.3.1/redux
 
 currently, the project has releases for the following stacks:
 * React
@@ -70,7 +70,7 @@ This version (base) provides a minimal setup for a React 18.3.1 project, includi
 ### Without Devcontainer Extension
 1. Clone the repository with the following command:
     ```bash
-    git clone --branch react/18.3.1-base --single-branch https://github.com/Dark-Zeus/docker-dev-react.git
+    git clone --branch react-18.3.1/base --single-branch https://github.com/Dark-Zeus/docker-dev-react.git
     ```
     this will clone the repository with the specified branch.
 
