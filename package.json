@@ -1,6 +1,7 @@
 {
   "name": "docker-dev-react",
   "version": "18.3.1",
+  "description": "Basic React app with Docker development environment",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^7.0.2",
