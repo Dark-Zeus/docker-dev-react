@@ -1,6 +1,6 @@
 # Docker Dev Template Project
 
-* We do recommend reading the full documentation if you are new to the project. However if you want the details about the specific stack and version [jump to stack documentation:](#docker-dev-react--react1831-base)
+* We do recommend reading the full documentation if you are new to the project. However if you want the details about the specific stack and version [jump to stack documentation:](#docker-dev-react--react-1831base)
 
 The project is intended to provide a dockerized development environments for various projects that uses different stacks. The project is divided into multiple sub-projects, each of which will have a separate docker image and a github repository. For each stack, there are multiple branches, each of which represents a different major version of the stack. The version is the same as the version of the stack the branch is based on.
 
@@ -61,7 +61,7 @@ For more information on how to use the devcontainer extension, please refer to t
   
 <br/>  
 
-# docker-dev-react : react/18.3.1-base
+# docker-dev-react : react-18.3.1/base
 
 This version (base) provides a minimal setup for a React 18.3.1 project, including a pre-configured folder structure. It's an ideal starting point for building a new project.
 
