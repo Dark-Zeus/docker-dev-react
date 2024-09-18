@@ -131,7 +131,6 @@ yarn start
 * Yarn : 4.4.1
 
 ### Dependencies / Libraries
-* React : 18.3.1
 * @testing-library/dom : ^7.0.2
 * @testing-library/jest-dom : ^5.17.0
 * @testing-library/react : ^13.4.0
