@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Generate a random 8 digit hex number
-DEF_TAG=$(openssl rand -hex 8)
+DEF_TAG=$(openssl rand -hex 4)
 
 # Colors
 RED='\033[0;31m'
